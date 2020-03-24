@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "dauphine": "https://bitbucket.org/adeliomgit/dauphine-scss.git",
+    "dauphine-js": "https://bitbucket.org/adeliomgit/dauphine-js.git",
     "node-sass": "^4.13.1",
     "plop": "^2.6.0",
     "react": "^16.13.1",

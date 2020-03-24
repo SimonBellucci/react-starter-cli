@@ -19,7 +19,6 @@
 .env.production.local
 
 .idea
-/src/app/App.js
 /src/components/
 /src/pages/
 /src/router/
