@@ -1,5 +1,15 @@
 React Starter Template, with CLI commands.
 
+## Quick start
+
+1. Install dependencies
+
+### `yarn install`
+
+2. Run project
+
+### `yarn start`
+
 ## Available Scripts
 
 In the project directory, you can run:

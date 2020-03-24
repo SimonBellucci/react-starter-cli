@@ -1,10 +1,10 @@
 import React from 'react';
-import Router from "../router/Router";
+{/* PLOP_ADD_ROUTER */}
 
 function App() {
   return (
     <div className="App">
-      <Router/>
+      {/* PLOP_MODIFY_ROUTER */}
     </div>
   );
 }
