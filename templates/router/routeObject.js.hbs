@@ -1,4 +1,11 @@
+{{#if path}}
+    {
+        path: "/{{lowerCase path}}",
+        component: {{pascalCase name}}
+    },
+{{else}}
     {
         path: "/{{lowerCase name}}",
         component: {{pascalCase name}}
     },
+{{/if}}

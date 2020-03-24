@@ -60,6 +60,11 @@ module.exports = plop => {
             },
             {
                 type: 'input',
+                name: 'path',
+                message: 'Veuillez renseigner le path, si null, le nom de la page sera pris par défaut',
+            },
+            {
+                type: 'input',
                 name: 'dynamic',
                 message: 'Si la page est dynamique, renseigner le paramètre',
             },
