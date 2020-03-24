@@ -19,10 +19,10 @@
 .env.production.local
 
 .idea
-./src/components
-./src/pages
-./src/app
-./src/router
+/src/app/App.js
+/src/components/
+/src/pages/
+/src/router/
 
 npm-debug.log*
 yarn-debug.log*
