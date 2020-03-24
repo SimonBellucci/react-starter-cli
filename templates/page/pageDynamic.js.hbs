@@ -8,12 +8,12 @@ const {{pascalCase name}} = props => {
    let { {{lowerCase dynamic}} }= useParams();
 
   return (
-    <>
+    <div className="{{lowerCase name}}">
       <p>{{pascalCase name}}</p>
       {
         {{lowerCase dynamic}} && <p>{{lowerCase dynamic}} : { {{lowerCase dynamic}} }</p>
       }
-    </>
+    </div>
   );
 };
 
