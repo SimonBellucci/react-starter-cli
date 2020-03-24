@@ -1,0 +1,20 @@
+import React from 'react';
+import {useParams} from "react-router-dom";
+
+import "./{{pascalCase name}}.scss";
+
+const {{pascalCase name}} = props => {
+
+   let { {{lowerCase dynamic}} }= useParams();
+
+  return (
+    <>
+      <p>{{pascalCase name}}</p>
+      {
+        {{lowerCase dynamic}} && <p>{{lowerCase dynamic}} : { {{lowerCase dynamic}} }</p>
+      }
+    </>
+  );
+};
+
+export default {{pascalCase name}};
